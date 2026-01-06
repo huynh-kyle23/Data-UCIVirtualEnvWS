@@ -29,6 +29,7 @@ python3 -m venv venv
 ```
 
 This creates a folder called `venv` that contains an isolated Python environment for this project.
+For our case, we will be calling our venv 'data@UCI'
 
 ---
 
@@ -38,12 +39,12 @@ This creates a folder called `venv` that contains an isolated Python environment
 
 **Command Prompt**
 ```bash
-venv\Scripts\activate
+data@UCI\Scripts\activate
 ```
 
 **PowerShell**
 ```powershell
-venv\Scripts\Activate.ps1
+data@UCI\Scripts\Activate.ps1
 ```
 
 > If activation is blocked in PowerShell, run:
@@ -55,7 +56,7 @@ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 
 ### macOS
 ```bash
-source venv/bin/activate
+source data@UCI/bin/activate
 ```
 
 ---
@@ -63,7 +64,7 @@ source venv/bin/activate
 ### ✅ How to know it worked
 Your terminal prompt will look like:
 ```text
-(venv)
+(data@UCI)
 ```
 
 ---
@@ -112,8 +113,8 @@ which python   # macOS
 ## 🧹 Removing the Virtual Environment
 To delete the virtual environment, simply remove the folder:
 ```bash
-rm -rf venv        # macOS
-rmdir /s venv      # Windows
+rm -rf data@UCI        # macOS
+rmdir /s data@UCI      # Windows
 ```
 
 ---
