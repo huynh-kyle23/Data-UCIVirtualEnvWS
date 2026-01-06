@@ -20,16 +20,16 @@ python3 --version
 
 ### Windows (Command Prompt or PowerShell)
 ```bash
-python -m venv venv
+python -m venv data@UCI
 ```
 
 ### macOS (Terminal)
 ```bash
-python3 -m venv venv
+python3 -m venv data@UCI
 ```
 
-This creates a folder called `venv` that contains an isolated Python environment for this project.
-For our case, we will be calling our venv 'data@UCI'
+This creates a folder called `data@UCI` that contains an isolated Python environment for this project.
+For our case, that is what we will be calling our new venv!
 
 ---
 
