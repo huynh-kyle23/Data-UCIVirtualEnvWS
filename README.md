@@ -1,5 +1,5 @@
 # Data-UCIVirtualEnvWS
-**Author:** Kyle Huynh
+
 
 This repository is a simple workspace for learning how to set up and use Python virtual environments (`venv`) on **Windows** and **macOS**, along with installing dependencies using `requirements.txt`.
 
